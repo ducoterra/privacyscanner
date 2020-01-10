@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    image: ducoterra/privacyscore:0.0.1
+    volumes:
+      - ./app:/app
